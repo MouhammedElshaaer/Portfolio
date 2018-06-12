@@ -1,0 +1,53 @@
+*{}
+.divider{border-width:2px;border-color:gray;margin:100px 0px;}
+body{background:silver;}
+.row{
+	margin:0;
+}
+
+.navbar-custom{font-weight:bold;}
+.navbar{margin:0px;box-sizing:border-box;}
+
+header{height:;background:gray;background-repeat: no-repeat;background-size:100% 100%;padding:50px 20px;box-sizing:border-box;}
+	header #header-about-2{font-size:30px;font-weight:bold;color:#ffffff;text-shadow:2px 2px 5px gray;margin-top:20px;}
+	header #header-about-1{font-size:20px;font-weight:bold;color:#ffffff;text-shadow:2px 2px 5px gray;margin-top:50px;}
+	header hr{border-width:5px;}
+	header #header-img{width:300px;display:block;margin:10px auto;}
+	
+	
+.jumbotron{margin:0;box-shadow:0 0 10px black inset;padding:0;}
+
+main{}
+#portfolio{}
+	#portfolio h2{font-weight:bold;color:gray;text-shadow:2px 2px 4px silver;}
+	#portfolio hr{border-color:gray;border-width:5px;width:100%;}
+	#portfolio img{height: 300px}
+	
+#contact_us{}
+	#contact_us h2{font-weight:bold;color:gray;text-shadow:2px 2px 4px silver;}
+	#contact_us hr{border-color:gray;border-width:5px;}
+	#contact_us input{font-size:30px;}
+	#contact_us .form-control{font-size:30px;overflow:visible;height:auto;	}
+	#contact_us .form-group{}
+	#contact_us .form-group .input_container{position:relative;height:90px;}
+	#contact_us .label{position:absolute;display:none;font-weight:bold;color:gray;font-size:25px;padding-left:0px;}
+	#contact_us .form-group input{position:absolute;bottom:0px;}
+	#contact_us #form-text-1{padding-top:30px;color:gray;font-weight:bold;}
+	#contact_us #form-text-2{padding:30px 0px;color:gray;font-weight:bold;	}
+	#contact_us button{color:gray;}
+	
+#main-footer{height:;background:gray;padding:30px 0px;box-sizing:border-box;}
+	#main-footer .fa{font-size:45px;color:silver;margin:0px 20px;}
+	#main-footer h2{font-weight:bold;color:silver;text-shadow:2px 2px 5px black;}
+	#main-footer #active{color:black;text-shadow:2px 2px 5px white;}
+	@media only screen and (max-width: 390px) {
+     #main-footer .fa{
+        font-size:30px;
+    }
+	
+}
+	
+
+footer{background:black; padding:20px 0px;color:#bababa;box-sizing:border-box;}
+	footer div{}
+
